@@ -1,0 +1,102 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+
+body,html{
+  height:100%;
+  margin: 0;
+  font-family:"Ubuntu", sans-serif;
+  line-height: 180%;
+  color:#666;
+  text-align: center;
+
+}
+
+
+.comment{
+  margin:3%;
+  text-align: left;
+}
+
+h1{
+    text-shadow: 0 0 2px #000;
+}
+
+@media (min-width:360px){/*スマホ用*/
+  .button{
+  	color:#656565;
+  	border: 1px solid #656565;
+  	padding: 8px 20px;
+  	border-radius: 30px;
+  	text-decoration: none;
+
+  }
+    .footer{
+    margin-top: 100px;
+    margin-left: auto;
+    margin-left: auto;
+    margin-bottom: 200px;
+}
+}
+
+@media (min-width:1024px){
+
+	body{margin-left:10%;
+        margin-left: 10%;
+		max-width: 1000px;
+	}
+
+  .comment{
+    margin-left: 20%;
+    margin-right: 20%;
+    float:left;
+
+
+  }
+
+  .button{
+  	color:#656565;
+  	border: 1px solid #656565;
+  	padding: 8px 20px;
+  	border-radius: 30px;
+  	text-decoration: none;
+
+  }
+
+  .footer{
+    margin-top: 100px;
+    margin-left: auto;
+    margin-left: auto;
+    margin-bottom: 200px;
+}
+}
+
+/*Tablet View*/
+@media (min-width : 768px ){
+
+	body{
+		max-width:778;
+	}
+  .comment{
+    margin-left: 20%;
+    margin-right: 20%;
+    float:left;
+  }
+
+  .button{
+  	color:#656565;
+  	border: 1px solid #656565;
+  	padding: 8px 20px;
+  	border-radius: 30px;
+  	text-decoration: none;
+
+  }
+
+  .footer{
+    margin-top: 100px;
+    margin-left: auto;
+    margin-left: auto;
+    margin-bottom: 200px;
+}
+}

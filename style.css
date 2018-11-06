@@ -1,0 +1,322 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu');
+
+
+body,html{
+  height:100%;
+  margin: 0;
+  font-family:"Ubuntu", sans-serif;
+  line-height: 180%;
+  color:#666;
+  text-align: center;
+
+}
+
+@media (min-width:360px){/*スマホ用*/
+
+  /*ロゴ・文章関係設定エリア*/
+  .name {
+    position: absolute;
+    font-size: 300%;
+    color: #fff;
+    top:20%;
+    width: 100%;/*これでなんで真ん中に来るのか？*/
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    text-shadow: 0 0 10px #000;
+
+  }
+
+  h3{
+    text-align: center;
+  }
+
+  .comment1{
+    text-align: left;
+    margin: 0 10px;
+  }
+
+
+  .page1{
+      background-image: url(img/pic1_mobile.jpg);
+
+      height:50%;
+      width:100%;
+      background-repeat: no-repeat;
+      background-size:cover;
+      opacity: 0.8;
+
+    }
+
+  .page2{
+    background: url(img/pic2_mobile.jpg);
+    height:50%;
+    width:100%;
+    background-repeat: no-repeat;
+    background-size:cover;
+    opacity: 0.8;
+
+  }
+
+  .page3{
+    background: url(img/pic3_mobile.jpg);
+    height:50%;
+    width:100%;
+    background-repeat: no-repeat;
+    background-size:cover;
+    opacity: 0.8;
+
+  }
+
+  .page4{
+    background: url(img/pic4_mobile.jpg);
+    height:50%;
+    width:100%;
+    background-repeat: no-repeat;
+    background-size:cover;
+    opacity: 0.8;
+  }
+
+
+
+  .about_me{
+    position: absolute;
+    font-size: 200%;
+    color: #fff;
+    margin-top:172px;
+    width: 100%;/*これでなんで真ん中に来るのか？*/
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    text-shadow: 0 0 10px #000;
+  }
+
+  .myprojects{
+    position: absolute;
+    font-size: 200%;
+    color: #fff;
+    margin-top:160px;
+    width: 100%;/*これでなんで真ん中に来るのか？*/
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    text-shadow: 0 0 10px #000;
+  }
+
+  .info{
+    position: absolute;
+    font-size: 200%;
+    color: #fff;
+    margin-top:30px;
+    width: 100%;/*これでなんで真ん中に来るのか？*/
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    text-shadow: 0 0 10px #000;
+  }
+
+.myinfo{
+  position: absolute;
+  font-size: 100%;
+  color: #fff;
+  margin-top:150px;
+  width: 100%;/*これでなんで真ん中に来るのか？*/
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  text-shadow: 0 0 10px #000;
+}
+
+.projectpage{
+  height:140px;
+
+
+}
+.jump_btn{
+  text-decoration: none;
+}
+
+a{
+  text-decoration: none;
+  color:#4169E1;
+  
+}
+
+}
+
+/*and (max-width)の間には必ずスペース入れること。反映されない。*/
+@media  (min-width:768px){
+
+  body{
+    margin-left:10%;
+    margin-right: 10%;
+		max-width: 1000px;
+	}
+
+
+
+.page1{
+    background: url(img/pic1.jpg);
+    min-height: 100%;
+  }
+
+.page2{
+  background: url(img/pic2.jpg);
+  min-height: 50%;
+
+}
+
+.page3{
+  background: url(img/pic3.jpg);
+  min-height: 40%;
+
+}
+
+.page4{
+  background: url(img/pic4.jpg);
+  min-height: 100%;
+
+}
+
+.page1,.page2,.page3,.page4{
+  position: relative;
+  opacity: 0.75;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+
+}
+/*ここめちゃ大事！responsive*/
+
+.name{
+  position: absolute;
+  font-size: 300%;
+  color: #fff;
+  top:20%;
+  width: 100%;/*これでなんで真ん中に来るのか？*/
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  text-shadow: 0 0 10px #000;
+
+}
+
+.comment1{
+  float: left;
+  text-align: left;
+  width:40%;
+  padding:0 4%;
+}
+
+
+
+
+
+
+
+
+
+
+.about_me{
+  position: absolute;
+  font-size: 200%;
+  color: #fff;
+  top:38%;
+  width: 100%;/*これでなんで真ん中に来るのか？*/
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  text-shadow: 0 0 10px #000;
+}
+
+.myprojects{
+  position: absolute;
+  font-size: 200%;
+  color: #fff;
+  top:38%;
+  width: 100%;/*これでなんで真ん中に来るのか？*/
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  text-shadow: 0 0 10px #000;
+
+}
+
+.info{
+  position: absolute;
+  font-size: 100%;
+  color: #fff;
+  top:38%;
+  width: 100%;/*これでなんで真ん中に来るのか？*/
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  text-shadow: 0 0 10px #000;
+
+}
+
+section{
+  overflow: auto;
+}
+
+.myinfo{
+  position: absolute;
+  font-size: 100%;
+  color: #fff;
+  margin-top:150px;
+  width: 100%;/*これでなんで真ん中に来るのか？*/
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  text-shadow: 0 0 10px #000;
+}
+
+
+
+
+}
+
+
+
+@media (min-width : 768px ){
+
+
+  .comment1{
+
+    text-align:center;
+    width:100%;
+    margin:0;
+    padding:0%;
+  }
+
+  section{
+    overflow: auto;
+  }
+
+.about_me{
+  margin-top: 45px;
+}
+
+.myprojects{
+  margin-top: 30px;
+}
+
+.info{
+  position: absolute;
+  font-size: 200%;
+  color: #fff;
+  top:38%;
+  width: 100%;/*これでなんで真ん中に来るのか？*/
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  text-shadow: 0 0 10px #000;
+
+}
+
+.myinfo{
+  position: absolute;
+  font-size: 100%;
+  color: #fff;
+  margin-top:488px;
+  width: 100%;/*これでなんで真ん中に来るのか？*/
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  text-shadow: 0 0 10px #000;
+}
+
+
+
+
+
+}
